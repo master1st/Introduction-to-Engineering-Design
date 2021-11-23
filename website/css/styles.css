@@ -181,11 +181,11 @@ a:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #81B612;
+    color: #010A13;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #84B819;
+    color: #010A13;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
@@ -264,7 +264,7 @@ div.navbar-header:after {
 }
 
 .navbar-brand b {
-    color: #98D21F;
+    color: #786a6a;
     font-family: 'Syncopate', sans-serif;
     font-weight: 800;
 }
@@ -349,13 +349,14 @@ div.navbar-header:after {
 }
 /*--- Banner ----*/
 .banner-container {
+    background-color: white;
     width: 100%;
     position: relative;
     padding: 0px;
     box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
-    background: url("../images/banner-bg.jpg") no-repeat;
+    background: url("../images/camping-3893598.jpg") no-repeat;
     background-size: cover !important;
-    height: 650px;
+    height: 900px;
 	/* background-size: cover; */
     background-position: center;
 }
@@ -460,7 +461,7 @@ div.navbar-header:after {
 /*Intro Content*/
 #introText {
     padding: 50px 0;
-    background:#3c9d98;
+    background: white;
 }
 
 #introText h1, #introText p {
