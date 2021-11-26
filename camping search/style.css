@@ -1,0 +1,97 @@
+html{
+    width:100%;
+    height:100%;
+}
+
+.top{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:90px;
+    padding:10px;
+    margin-bottom: 50px;
+}
+.top>.G{
+    color:blue;
+
+}
+.top>.O{
+    color:red;
+}
+.top>.o{
+    color:green;
+}
+.top>.g{
+    color:blue;
+}
+.top>.l{
+    color:greenyellow;
+}
+.top>.e{
+    color:red;
+}
+
+.flex-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    margin-top:0px;
+   
+}
+div.item:hover {
+background-color: aqua;
+border-radius: 10px;
+}
+.a{
+    display:center;
+    
+
+}
+.gg-facebook{
+    color:white;
+}
+.gg-stopwatch{
+    color:white;
+}
+.gg-google{
+    color:white;
+}
+.gg-add-r{
+    color:white;
+}
+.item{
+    margin:20px;
+    padding:15px;
+    margin-bottom: 40px;
+    border:1px solid white;
+    
+}
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:80px;
+    margin-bottom: 50px;
+   
+}
+.fakebox-text{
+    
+    padding-left:765px;
+}
+input{
+    height:20px;
+    border-radius: 20px;
+}
+button{
+    border-radius: 8px;
+}
+p{
+    position: absolute;
+    left:1000px;
+    bottom: 789px;
+}
