@@ -1188,6 +1188,9 @@ footer {
     height:630px;
     
 }
+i:hover{
+    cursor: pointer;
+}
 .bottom_top{
     display:flex;
     justify-content:space-around;
@@ -1200,7 +1203,7 @@ footer {
     text-align : center;
     list-style:none;
 }
-i{
+li >i{
     font-size:45px;
     color:burlywood;
 }
