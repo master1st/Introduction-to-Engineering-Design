@@ -1125,7 +1125,14 @@ footer {
     font-size: 35%;
     font-style: italic;
 }
-
+.Contactus{
+    background-image: url("../index_files/캠핑장인기사진/고객센터.png");
+    background-position: 50% 50%;
+    height: 100vh;
+    z-index: 999;
+  
+      
+}
 .panel {
     -webkit-transition-property: scale;
     -webkit-transition-duration: 0.2s;
@@ -1162,12 +1169,59 @@ footer {
 #contactUs {
     color: #fff;
     box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
-    background: #5E5E5E;
+    background: black;
     background-size: cover !important;
 	/* background-size: cover; */
     background-position: center;
-}
+    width:557px;
+    height:630px;
+    position:absolute;
+    margin-left :40px;
+    margin-top : 100px;
+    padding:0px;
 
+}
+.csvvv{
+   width:194px;
+}
+.box_adr{
+    height:630px;
+    
+}
+.bottom_top{
+    display:flex;
+    justify-content:space-around;
+    text-align : center;
+    list-style:none;
+}
+.bottom_bottom{
+    display:flex;
+    justify-content:space-around;
+    text-align : center;
+    list-style:none;
+}
+i{
+    font-size:45px;
+    color:burlywood;
+}
+.page-section h2 {
+    color :#999999 !important;
+    font-size:25px;
+}
+.box_top{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align : center;
+}
+.title_contact{
+    padding:30px 30px 10px 30px;
+    font-size:40px;
+}
+.sub_contact{
+    color :#999999 !important;
+    padding:0px;
+}
 #contactUs h2, #contactUs p {
     color: #fff;
 }

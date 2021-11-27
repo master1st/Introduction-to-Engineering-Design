@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="css\common.css">
     <link rel="stylesheet" href="css\swiper.css">
     <link rel="stylesheet" href="css\fire.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
     <!-- Font Awesome -->
     <link href="./index_files/font-awesome.min.css" rel="stylesheet">
@@ -180,8 +182,7 @@
                                 <!-- <p>
 						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rquia.<br>
 						</p> -->
-                                <a href="webhtml/shopping.html"
-                                    class="btn btn-skin">Learn more</a>
+                                <a href="webhtml/shopping.html" class="btn btn-skin">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -777,74 +778,44 @@
     </section>
 
     <!--Contact -->
-    <section id="contactUs" class="page-section secPad">
-        <div class="container">
-
-            <div class="row">
-                <div class="heading text-center">
-                    <!-- Heading -->
-                    <h2>고객센터</h2>
-                    <p>캠핑장의 개선사항, 캠핑장 찾기 어려움등 고객님들의 불편사항이나 의견들을 반영하여 사이트를 개선합니다.</p>
+    <div class="Contactus">
+        <section id="contactUs" class="page-section secPad">
+            <div class="box_adr">
+                <div class="box_top">
+                    <div class="title_contact">
+                        <strong class="centergo">고객센터</strong>
+                    </div>
+                    <div class="sub_contact">회사 이메일주소 및 전화번호</div>
+                </div>
+                <div class="box_bottom"style ="margin-top:120px;">
+                    <ul class="bottom_top">
+                        <div class="bottom_top_left csvvv" style ="width:194px;">
+                            <li><i class="fas fa-map-marker-alt"></i></li>
+                            <h2>주소</h2>
+                            <P>궐동 오산 좌로직진 헤븐거리</P>
+                        </div>
+                        <div class="bottom_top_right csvvv"style ="width:194px;">
+                            <li><i class="fas fa-mobile"></i></li>
+                            <h2>전화번호</h2>
+                            <P>010-9497-3180</P>
+                        </div>
+                    </ul>
+                    <ul class="bottom_bottom">
+                        <div class="bottom_bottom_right csvvv"style ="width:194px;">
+                            <li><i class="fas fa-envelope-square"></i></li>
+                            <h2>이메일</h2>
+                            <P>gah12342395@gmail.com</P>
+                        </div>
+                        <div class="bottom_bottom_right csvvv"style ="width:194px;">
+                            <li><i class="fab fa-github-square"></i></li>
+                            <h2>Github</h2>
+                            <P>github.com/아마스빈</P>
+                        </div>
+                    </ul>
                 </div>
             </div>
-
-            <div class="row mrgn30">
-
-
-                <div class="col-sm-12 col-md-8">
-                    <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
-                    <form name="sentMessage" id="contactForm" novalidate="">
-                        <h3>고객정보</h3>
-                        <div class="control-group">
-                            <div class="controls">
-                                <input type="text" class="form-control" placeholder="이름" id="name" required=""
-                                    data-validation-required-message="Please enter your name">
-                                <p class="help-block"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="controls">
-                                <input type="email" class="form-control" placeholder="이메일" id="email" required=""
-                                    data-validation-required-message="Please enter your email">
-                                <div class="help-block" style="color:red"></div>
-                            </div>
-                        </div>
-
-                        <div class="control-group">
-                            <div class="controls">
-                                <textarea rows="10" cols="100" class="form-control" placeholder="의견사항" id="message"
-                                    required="" data-validation-required-message="Please enter your message"
-                                    minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="999"
-                                    style="resize:none"></textarea>
-                                <div class="help-block" style="color:red"></div>
-                            </div>
-                        </div>
-                        <div id="success"> </div> <!-- For success/fail messages -->
-                        <button type="submit" class="btn btn-primary pull-right">메시지 전송하기</button><br>
-                    </form>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <h4>회사 주소:</h4>
-                    <address>
-                        캠핑 Company<br>
-                        대한민국 경기도 오산시 궐동 (gong-gi do, osan)<br>
-                        오산역 1번출구 캠핑 주식회사
-                        <br>
-                    </address>
-                    <h4>전화번호:</h4>
-                    <address>
-                        02-947-3180<br>
-                    </address>
-                    <h4>이메일</h4>
-                    <address>
-                        camping1234@gmail.com<br>
-                    </address>
-
-                </div>
-            </div>
-        </div>
-        <!--/.container-->
-    </section>
+        </section>
+    </div>
     <footer>
         <div class="container">
             <div class="social text-center">
