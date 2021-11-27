@@ -22,6 +22,10 @@ html{
     font-size : 40px;
     text-shadow: 4px 4px 4px black;
 }
+button.white {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
 .top>.searchsub{
     display:flex;
     align-items: center;
