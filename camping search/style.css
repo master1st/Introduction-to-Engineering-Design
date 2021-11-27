@@ -3,34 +3,39 @@ html{
     height:100%;
 }
 
-.top{
+.top>.campingsearch{
     display:flex;
     align-items: center;
     justify-content: center;
     margin:100px;
+    margin-bottom: 0px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:90px;
     padding:10px;
+    text-shadow: 4px 4px 4px black;
+}
+.top>.campingsearch>.title_strongly{
+    font-size : 60px;
+    text-shadow: 4px 4px 4px black;
+}
+.top>.searchsub>.subtitle_strongly{
+    font-size : 40px;
+    text-shadow: 4px 4px 4px black;
+}
+.top>.searchsub{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    padding:10px;
     margin-bottom: 50px;
+    color:white;
+    text-shadow: 4px 4px 4px black;
 }
-.top>.G{
-    color:blue;
-
-}
-.top>.O{
-    color:red;
-}
-.top>.o{
-    color:green;
-}
-.top>.g{
-    color:blue;
-}
-.top>.l{
-    color:greenyellow;
-}
-.top>.e{
-    color:red;
+.top>.campingsearch{
+    font-size : 40px;
+    color : white;
 }
 
 .flex-box{
