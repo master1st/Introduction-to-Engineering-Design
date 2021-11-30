@@ -1,0 +1,25 @@
+.body{
+    margin:0px;
+    padding:0px;
+    
+}
+
+.보라색_눈물{
+    display:flex;
+    background-color:blueviolet;
+
+}
+.진한노랑_눈물{
+    display:flex;
+    background-color:goldenrod;
+    flex-direction: column;
+}
+.노랑_눈물{
+    display:flex;
+    background-color:yellow;
+    width:auto;
+}
+.자줏빛_눈물{
+    display:flex;
+    background-color:darkmagenta;
+}
