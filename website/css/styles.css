@@ -481,11 +481,18 @@ div.navbar-header:after {
     margin-bottom: 20px;
 }
 
-#packages .txtHead .fa {
+#packages .txtHead .fa  {
     font-size: 58px;
     color: #5E5E5E;
 }
-
+.fas{
+        font-size: 30px;
+        color: black;
+}
+.far{
+    font-size: 30px;
+    color: black;
+}
 .tileBox p {
     background-color: #f0f0f0;
     font-size: 15px;
